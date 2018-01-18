@@ -1,5 +1,6 @@
 <?php
 include("cek_session.php");
+//ini dirubah utk lihat status github
 if($_SESSION['jabatan']!="Master Admin"){
 	header("location:logout.php");		
 }
